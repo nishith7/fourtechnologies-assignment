@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Divider, Stack } from '@mui/material';
+import logo from './assets/logo.png'
 
 const Navbar = () => {
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
         <MenuIcon /> */}
       {/* </IconButton> */}
       <Button sx={{marginLeft:'150px'}}>
-        <img width={'128px'} height={'50px'}  src={'/public/logo.png'}/>
+        <img width={'128px'} height={'50px'}  src={logo}/>
 
       </Button>
       

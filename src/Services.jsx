@@ -1,36 +1,43 @@
 import { Button, Stack, Typography } from '@mui/material'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import serviceone from './assets/serviceone.png'
+import servicetwo from './assets/servicetwo.png'
+import servicethree from './assets/servicethree.png'
+import servicefour from './assets/servicefour.png'
+import servicefive from './assets/servicefive.png'
+import servicesix from './assets/servicesix.png'
+
 import React from 'react'
 
 const Services = () => {
     const services = [
         {
-          imgSrc: 'public/serviceone.png',
+          imgSrc: serviceone,
           title: 'Improve Clickthrough Rates',
           description: `Our visual ad manager allows point- and-click creation of new ad units and layouts, while our machine learning-based layout optimizer drives ad revenue growth using automated A/B testing.`
         },
         {
-          imgSrc: 'public/servicetwo.png',
+          imgSrc: servicetwo,
           title: 'Maximize Revenue',
           description: `Advanced revenue tracking and reporting provide insights to maximize your ad revenues with performance-driven decisions and strategies.`
         },
         {
-          imgSrc: 'public/servicethree.png',
+          imgSrc:servicethree,
           title: 'Real-Time Bidding',
           description: `We implement cutting-edge real-time bidding solutions that increase competition among advertisers, ultimately leading to higher returns.`
         },
         {
-          imgSrc: 'public/servicefour.png',
+          imgSrc:servicefour,
           title: 'Ad Fraud Prevention',
           description: `Our technology helps detect and prevent ad fraud, ensuring that you only pay for legitimate traffic and engagements.`
         },
         {
-          imgSrc: 'public/servicefive.png',
+          imgSrc: servicefive,
           title: 'Audience Targeting',
           description: `Sophisticated audience segmentation helps you reach the right audience, maximizing engagement and conversion.`
         },
         {
-          imgSrc: 'public/servicesix.png',
+          imgSrc: servicesix,
           title: 'Detailed Analytics',
           description: `Our analytics dashboard provides real-time insights on ad performance, helping you refine your strategy for better results.`
         },

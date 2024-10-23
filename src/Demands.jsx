@@ -1,4 +1,5 @@
 import { Button, Stack, Typography } from '@mui/material'
+import demands from './assets/demands.png'
 import React from 'react'
 
 const Demands = () => {
@@ -34,7 +35,7 @@ These partnerships allow us to reduce barriers of entry and bring the best globa
 
 </Stack>
 
-<img src='public/demands.png' width={'300px'} height={'400px'}/>
+<img src={demands} width={'300px'} height={'400px'}/>
         
 
 

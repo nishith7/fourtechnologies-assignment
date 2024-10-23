@@ -1,4 +1,5 @@
 import { Box, Button, Grid, Stack, Typography } from '@mui/material'
+import homepage from './assets/homepage.png'
 import React from 'react'
 
 const Home = () => {
@@ -35,7 +36,7 @@ const Home = () => {
             </Stack>
             <Stack marginTop={2}>
             <Box>
-                <img width={'445px'} height={'442px'} src='public/homepage.png'/>
+                <img width={'445px'} height={'442px'} src={homepage}/>
             </Box>
 
             </Stack>

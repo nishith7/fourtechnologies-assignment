@@ -1,4 +1,5 @@
 import { Button, Stack, Typography } from '@mui/material'
+import google from './assets/google.png'
 import React from 'react'
 
 const GooglePartner = () => {
@@ -32,7 +33,7 @@ const GooglePartner = () => {
           borderRadius: 'inherit', // Inherit the border radius from the parent
         }}
       />
-        <img style={{ zIndex: 2 }} width={'195px'} height={'75px'} src='public/google.png'/>
+        <img style={{ zIndex: 2 }} width={'195px'} height={'75px'} src={google}/>
 
 <Typography zIndex={2}  marginTop={5} fontSize={'28px'} fontWeight={500} color='#323d47'>
 Work With a Trusted Industry Leader

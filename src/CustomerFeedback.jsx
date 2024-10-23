@@ -1,14 +1,19 @@
-import { Avatar, Card, Rating, Stack, Typography } from '@mui/material'
 import React from 'react'
+
+import { Avatar, Card, Rating, Stack, Typography } from '@mui/material'
+import p1 from './assets/p1.jpg'
+import p2 from './assets/p2.jpg'
+import p3 from './assets/p3.jpeg'
+import p4 from './assets/p4.jpeg'
 
 const CustomerFeedback = () => {
   return (
-    <Stack justifyContent={'center'} alignItems={'center'} marginTop={10} sx={{backgroundColor:'#f9fafa'}} maxHeight={'754px'} maxWidth={'1519px'} >
+    <Stack justifyContent={'center'} alignItems={'center'} marginTop={10} sx={{backgroundColor:'#f9fafa'}} height={'820px'} maxWidth={'1519px'} >
         <Typography marginTop={8} color='#323d47' fontSize={'33px'} fontWeight={600}>
         What Our Customers Say
         </Typography>
 
-        <Stack marginTop={8} gap={7} direction={'row'} >
+        <Stack marginTop={5} gap={7} direction={'row'} >
             <Card   sx={{width:'540px',height:'232px',color:'white',padding:'20px 32px'}}>
             <Rating size='small' name="half-rating" defaultValue={5} precision={0.5} />
             <Typography marginTop={2} color='#757575' fontSize={'16px'} >
@@ -16,7 +21,7 @@ const CustomerFeedback = () => {
             </Typography>
             <Stack marginTop={9}>
             <Stack gap={2} direction={'row'}>
-            <Avatar sizes='34px 34px' alt="Remy Sharp" src="public/p1.jpg" />
+            <Avatar sizes='34px 34px' alt="Remy Sharp" src={p1}/>
             <Stack>
                 <Typography color='#757575' fontSize={'14px'}>
                     Vikas Yogi
@@ -39,7 +44,7 @@ const CustomerFeedback = () => {
             </Typography>
             <Stack marginTop={9}>
             <Stack gap={2}  direction={'row'}>
-            <Avatar sizes='34px 34px' alt="Remy Sharp" src="public/p2.jpg" />
+            <Avatar sizes='34px 34px' alt="Remy Sharp" src={p2} />
             <Stack>
                 <Typography color='#757575' fontSize={'14px'}>
                     Matt Miller
@@ -57,7 +62,7 @@ const CustomerFeedback = () => {
             </Card>
 
         </Stack>
-        <Stack marginTop={7} gap={7} direction={'row'} >
+        <Stack marginTop={5} gap={7} direction={'row'} >
         <Card   sx={{width:'540px',height:'232px',color:'white',padding:'20px 32px'}}>
             <Rating size='small' name="half-rating" defaultValue={5} precision={0.5} />
             <Typography marginTop={2} color='#757575' fontSize={'16px'} >
@@ -65,7 +70,7 @@ const CustomerFeedback = () => {
             </Typography>
             <Stack marginTop={9}>
             <Stack gap={2} direction={'row'}>
-            <Avatar sizes='34px 34px' alt="Remy Sharp" src="public/p3.jpeg" />
+            <Avatar sizes='34px 34px' alt="Remy Sharp" src={p3} />
             <Stack>
                 <Typography color='#757575' fontSize={'14px'}>
                     Dan Laufer
@@ -89,7 +94,7 @@ const CustomerFeedback = () => {
             </Typography>
             <Stack marginTop={9}>
             <Stack gap={2} direction={'row'}>
-            <Avatar sizes='34px 34px' alt="Remy Sharp" src="public/p4.jpeg" />
+            <Avatar sizes='34px 34px' alt="Remy Sharp" src={p4} />
             <Stack>
                 <Typography color='#757575' fontSize={'14px'}>
                 Amit Qazi

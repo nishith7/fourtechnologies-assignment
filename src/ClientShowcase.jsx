@@ -1,8 +1,14 @@
 import { Stack, Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
+import clientone from './assets/clientone.png';
+import clienttwo from './assets/clienttwo.png';
+import clientthree from './assets/clientthree.png';
+import clientfour from './assets/clientfour.png';
+import clientfive from './assets/clientfive.png';
+import clientsix from './assets/clientsix.png';
 
 const ClientShowcase = () => {
-    const images = ['clientone','clienttwo','clientthree','clientfour','clientfive','clientsix']
+    const images = [clientone,clienttwo,clientthree,clientfour,clientfive,clientsix]
     const [startIndex, setStartIndex] = useState(0);
 
   useEffect(() => {
@@ -26,7 +32,7 @@ const ClientShowcase = () => {
         images.slice(startIndex, startIndex + 4).map((item, index) => (
           <img
             key={index}
-            src={`public/${item}.png`}
+            src={item}
             alt={`client ${index + 1}`}
             // style={{ width: '150px', height: 'auto' }}
           />

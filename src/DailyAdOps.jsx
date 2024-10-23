@@ -1,13 +1,14 @@
 import { Stack, Typography } from '@mui/material'
 import PhoneIcon from '@mui/icons-material/Phone';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import customerservice from './assets/customerservice.png'
 import React from 'react'
 
 const DailyAdOps = () => {
   return (
     <Stack marginLeft={10} gap={10} justifyContent={'center'} alignItems={'center'} direction={'row'} marginTop={10}>
         <img
-src='public/customerservice.png'
+src={customerservice}
 width={'400px'}
 height={'346px'}
         />

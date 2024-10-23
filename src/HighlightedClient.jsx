@@ -1,12 +1,13 @@
 import { Button, Stack, Typography } from '@mui/material'
+import client from './assets/highlightclient.jpg'
 import React from 'react'
 
 const HighlightedClient = () => {
   return (
-    <Stack gap={15} marginTop={10} direction={'row'} maxHeight={'562px'} maxWidth={'1519px'} sx={{
+    <Stack gap={15}  direction={'row'} maxHeight={'562px'} maxWidth={'1519px'} sx={{
         backgroundImage: 'linear-gradient(to right bottom, #eb575c 0%, #000 100%)',
       }}>
-        <img style={{paddingTop:25,paddingBottom:25}} src='public/highlightclient.jpg' width={'759px'} height={'466px'}/>
+        <img style={{paddingTop:25,paddingBottom:25}} src={client} width={'759px'} height={'466px'}/>
 
         <Stack textAlign={'left'} maxWidth={'506px'} justifyContent={'center'} >
             <Typography  fontSize={'24px'} fontWeight={600} color='white'>
